@@ -18,3 +18,7 @@
 //= require compile_your_assets.js
 //= require then_hit_opt_cmd_u.js
 //= require poem_meta_data.js
+//= require tiger.js.erb
+$(document).on('ready', function(){
+  console.log("Is this workin?")
+});
